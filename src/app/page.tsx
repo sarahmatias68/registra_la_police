@@ -51,7 +51,22 @@ export default function Home() {
           </a>
         </div>
       </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
+      <footer className="row-start-3 flex gap-x-6 gap-y-3 flex-wrap items-center justify-center">
+        <a
+          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+          href="/politicas/termos-de-uso"
+        >
+          Termos de Uso
+        </a>
+        <a
+          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+          href="/politicas/privacidade"
+        >
+          Política de Privacidade
+        </a>
+
+        <div className="w-full h-px bg-gray-200 dark:bg-gray-800 sm:w-px sm:h-6" />
+
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
           href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
