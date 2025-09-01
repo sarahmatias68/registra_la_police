@@ -62,8 +62,8 @@ const PrivacyPolicyPage = () => {
       <p className="mb-4">Se você tiver alguma dúvida sobre esta Política de Privacidade, entre em contato conosco através do e-mail: <strong className="font-semibold">[Seu E-mail de Contato]</strong>.</p>
 
       <div className="mt-8">
-        <Link href="/politicas" className="text-blue-600 hover:underline dark:text-blue-400">
-          &larr; Voltar para Políticas
+        <Link href="/" className="text-blue-600 hover:underline dark:text-blue-400">
+          &larr; Voltar à página inicial
         </Link>
       </div>
     </>

@@ -48,8 +48,8 @@ const TermsOfUsePage = () => {
       <p className="mb-4">Estes Termos de Uso podem ser atualizados periodicamente. Notificaremos os usuários sobre alterações significativas. O uso contínuo da Aplicação após tais alterações constituirá sua aceitação dos novos termos.</p>
 
       <div className="mt-8">
-        <Link href="/politicas" className="text-blue-600 hover:underline dark:text-blue-400">
-          &larr; Voltar para Políticas
+        <Link href="/" className="text-blue-600 hover:underline dark:text-blue-400">
+          &larr; Voltar à página inicial
         </Link>
       </div>
     </>
